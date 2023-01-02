@@ -7,7 +7,7 @@
 #
 #   # optional loop until the file is read
 #   loop do
-#     breadk if rio.ready?
+#     break if rio.ready?
 #     sleep 1
 #   end
 #
